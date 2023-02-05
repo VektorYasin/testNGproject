@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Car Project" verbose="1" >
+
+    <!--listener, suit'ten sonraya konur-->
+    <listeners>
+        <listener class-name="techproed.utilities.Listeners"></listener>
+    </listeners>
+
+    <test name="Login Test Classes">
+        <classes>
+            <class name="techproed.tests.listeners.ListenersTest2"/>
+            <class name="techproed.tests.smoketest.logintests.Day18_PositiveLoginTest"/>
+        </classes>
+    </test>
+</suite>

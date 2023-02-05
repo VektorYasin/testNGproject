@@ -1,4 +1,4 @@
-package techproed.homework;
+package techproed.tests.homework;
 
 import org.testng.annotations.Test;
 
